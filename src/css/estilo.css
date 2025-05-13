@@ -31,6 +31,7 @@ header{
     justify-content: space-between;
     align-items: center;
     box-shadow: 5px 5px 5px #555;
+    
 }
 header nav ul{
     list-style: none;
@@ -42,6 +43,7 @@ header nav ul li a{
     text-decoration: none;
     color:#6e0000;
     font-weight: 700;
+    font-family: "Tagesschrift", system-ui;
 }
 header nav ul li a:hover{
     color: #fff;
@@ -49,18 +51,10 @@ header nav ul li a:hover{
 }
 header #logo{
     color:#6e0000;
+    font-family: "Tagesschrift", system-ui;
 }
-.banner #image{
-    width: 100% ;
-    height:120vh;
-    object-fit: cover;
-    
-}
-section #imagemsobre{
-    width: 100% ;
-    height: 90vh;
-    object-fit:cover;
-}
+
+
 #Cabecalhosobre{
     color: white;
     justify-content: center;
@@ -71,17 +65,6 @@ section #imagemsobre{
     
 }
 
-section h1{
-    display: flex;
-    justify-content: center;
-}
-section p{
-    display: flex;
-    margin: 20px;
-    justify-content: center;
-    align-items: center;
-
-}
 
 footer{
     margin-top: 30vh;
@@ -89,4 +72,70 @@ footer{
     justify-content: center;
     background-color: black;
     color :#fff
+}
+header img{
+    width: 60px;
+    height: 50px;
+    position: relative;right: 30%;
+}
+section img{
+    width: 1300px;
+    opacity: 30%;
+    
+}
+.carpa{
+    width: 300px;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    transform: scale(-50%,-50%);
+    opacity: 80%;
+    border-radius: 70%;
+ }
+.container{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+.texto{
+   color: #fff;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: scale(-50%,-50%);
+}
+.titulo{
+    color: #930303;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    background-color: transparent;
+    font-family: "Tagesschrift", system-ui;
+    font-size: 30px;
+   
+
+}
+.containersobre{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+.textosobre{
+    color: #a86161;
+    position: absolute;
+    top: 40%;
+    width: 200;
+    background-color: transparent;
+    font-family: "Tagesschrift", system-ui;
+
+}
+#Cabecalhosobre{
+    color: #f90303;
+    position: absolute;
+    top: 20%;
+    left: 47%;
+    width: 200;
+    background-color: transparent;
+    font-family: "Tagesschrift", system-ui;
 }
