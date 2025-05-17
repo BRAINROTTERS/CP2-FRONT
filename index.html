@@ -15,12 +15,15 @@
 <body>
     <div id="container2">
         <header>
-            <h1 id="logo">JAPAROTTERS</h1> <img src="./src/assets/carpa.jpg" alt="" class="logoimg">
+            <div class="logo">
+                <img src="./src/assets/carpa.jpg" alt="Logo" class="logoimg">
+                <h1 id="logo">JAPAROTTERS</h1>
+            </div>
             <nav>
                 <ul>
                     <li><a href="./index.html">Home</a></li>
                     <li><a href="./src/pages/sobre.html">Sobre</a></li>
-                    <li><a href="./src/pages/cardapio.html">cardapio</a></li>
+                    <li><a href="./src/pages/cardapio.html">Cardápio</a></li>
                     <li><a href="./src/pages/contato.html">Contato</a></li>
                 </ul>
             </nav>
@@ -28,14 +31,16 @@
 
         <section>
             <div class="container">
-                <img src="./src/assets/imagem1.jpg" class="fundo">
-                <img src="./src/assets/carpa.jpg" class="carpa">
-                <img src="./src/assets/ifood.jpg" class="ifood">
-                <p class="texto">
-                <h1 class="titulo">BEM VINDO AO NOSSO RESTAURANTE</h1>
-                <h3 class="localizacao">Rua giussepe cadura n:125</h3>
-                <img src="./src/assets/emoji.jpg" class="emoji">
-                </p>
+                <img src="./src/assets/imagem1.jpg" class="fundo" alt="Fundo">
+
+                <div class="conteudo-principal">
+                    <img src="./src/assets/carpa.jpg" class="carpa" alt="Carpa">
+                    <h1 class="titulo">BEM VINDO AO NOSSO RESTAURANTE</h1>
+                    <h3 class="localizacao">Rua Dos Colibris n:125</h3>
+                </div>
+
+                <img src="./src/assets/ifood.jpg" class="ifood" alt="iFood">
+                <img src="./src/assets/emoji.jpg" class="emoji" alt="Emoji">
             </div>
         </section>
 
@@ -43,10 +48,8 @@
             <p>&copy; -2025- todos os direitos reservados</p>
         </footer>
 
-
         <script src="./src/js/script.js"></script>
     </div>
 </body>
-
 
 </html>
