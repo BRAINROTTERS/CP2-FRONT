@@ -110,29 +110,32 @@ footer{
     color :#fff
 }
 .logoimg{
-    width: 60px;
-    position: relative;right: 27%;top: 80%; 
+    width: 3%;
+    position: absolute;
+    right: 86%;
+    top: 2%;
+   
     
 }
 .fundo{
-    width: 1240px;;
+    width: 100%;;
     opacity: 30%;
     display: flex;
+    justify-content: center;
 
     
 }
 .carpa{
-    width: 260px;
+    width: 15%;
     position: absolute;
-    top: 30%;
-    left: 40%;
+    top: 20%;
+    right: 43%;
     transform: scale(-50%,-50%);
-    opacity: 70%;
+    opacity: 66%;
     border-radius: 70%;
  }
 .container{
     position: relative;
-    display: inline-block;
     text-align: center;
     width: 100%;
 }
@@ -146,11 +149,12 @@ footer{
 .titulo{
     color: #930303;
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 20%;
+    left: 35%;
     background-color: transparent;
     font-family: "Tagesschrift", system-ui;
-    font-size: 30px;
+    font-size: 40px;
+
    
 
 }
@@ -243,12 +247,11 @@ footer{
 }
 #rodizio{
     width: 400px;
-    position: relative;left: 150%;
-    opacity: 100%;
+    
 }
-#alacarte{
-    width: 300px;
-}
+
+
+
 .trocar{
      top: 60%;
     width: 25px;
@@ -403,5 +406,3 @@ article.control{
 }
 label{
     background: #352b2b;
-}
-    
